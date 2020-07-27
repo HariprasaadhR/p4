@@ -15,3 +15,6 @@ def fact(request,n):
         facts=n*(n-1)
         n-=1
     return HttpResponse('<h4>factorial is {}<h4>'.format(facts))
+
+def child(request):
+    return render(request,'child.html')

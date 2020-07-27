@@ -8,4 +8,5 @@ urlpatterns=[
     path('home',views.home,name='home'),
     path('fact/<n>',views.fact,name='fact'),
     #path('2*suffix',add of function ),address of function,name of mapping)
+    path('child/',views.child,name='child'),
 ]
